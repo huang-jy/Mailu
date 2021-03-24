@@ -52,7 +52,7 @@ The location in the administration web interface where the spam filter and spam 
 Can I learn ham/spam messages from an already existing mailbox?
 ---------------------------------------------------------------
 
-Mailu supports automatic spam learning for email messages moved to the Junk Folder. Any email messages moved to the Junk Folder will be re-learned as spam, any email moved from the Junk Folder to any other folder (but the thrash folder) will be re-learned as ham.
+Mailu supports automatic spam learning for email messages moved to the Junk Folder. Any email messages moved to the Junk Folder will be re-learned as spam, any email moved from the Junk Folder to any other folder (but the trash folder) will be re-learned as ham.
 
 If you already have an existing mailbox and want Mailu to learn them all as ham messages, you might run rspamc from within the dovecot container:
 
